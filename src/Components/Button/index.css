@@ -8,6 +8,7 @@
     margin: 5px;
     transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
     cursor: pointer;
+    min-width: max-content;
 }
 
 .cl-button:focus {

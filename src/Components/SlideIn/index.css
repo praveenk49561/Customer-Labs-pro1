@@ -9,13 +9,15 @@
     top: 0;
     right: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: all 0.5s ease 0s;
     box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
     -webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
     -moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
+    overflow: hidden;
 }
 .cl-silde-in-closed {
     width: 0px;
+    opacity: 0.8;
 }
 .cl-slide-in-header {
     padding: 20px;
@@ -27,6 +29,7 @@
     align-items: center;
     height: 10vh;
     box-sizing: border-box;
+    min-width: max-content;
 }
 
 .cl-slide-in-header-title, .cl-slide-in-header-icon{
@@ -39,6 +42,7 @@
     height: 78vh;
     box-sizing: border-box;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .cl-slide-in-footer {
@@ -46,7 +50,6 @@
     font-size: 21px;
     font-weight: 500;
     background-color: #e5e5e559;
-    /* position: absolute; */
     width: 100%;
     max-width: inherit;
     box-sizing: border-box;
