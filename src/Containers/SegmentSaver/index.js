@@ -56,7 +56,7 @@ const SegmentSaver = (props) => {
                     <div className="cl-circle-icon-container"><FontAwesomeIcon icon={faCircle} color="green" /></div>- User Traits
                 </div>
                 <div className="cl-trait-icon-wrap">
-                    <div className="cl-circle-icon-container"><FontAwesomeIcon icon={faCircle} color="red" /></div>- User Traits
+                    <div className="cl-circle-icon-container"><FontAwesomeIcon icon={faCircle} color="red" /></div>- Group Traits
                 </div>
                 </div>
                 {schemas?.length > 0 && <div className="cl-selected-schemas">
