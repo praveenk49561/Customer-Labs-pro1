@@ -15,10 +15,6 @@ const Dashboard = () => {
         {label: 'Account Name', value: 'account_name'},
         {label: 'City', value: 'city'},
         {label: 'State', value: 'state'},
-        {label: 'adwaw', value: 'asdasd'},
-        {label: 'adwaw2', value: 'asdasd2'},
-        {label: '3asdas', value: 'asdasd3'},
-        {label: 'adwsadasdaw', value: 'asdasasdd'},
     ];
 
     const [name, setName] = useState('');
