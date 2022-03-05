@@ -1,15 +1,3 @@
-.cl-slide-in-footer {
-    padding: 20px;
-    font-size: 21px;
-    font-weight: 500;
-    background-color: #e5e5e559;
-    position: absolute;
-    width: 100%;
-    max-width: inherit;
-    box-sizing: border-box;
-    bottom: 0px;
-}
-
 .cl-slide-in-footer-save-btn {
     font-size: 13px;
     padding: 13px;

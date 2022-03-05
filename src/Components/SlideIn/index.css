@@ -1,7 +1,7 @@
 .cl-slide-in {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 450px;
     height: 100%;
     width: 500px;
     position: fixed;
@@ -25,6 +25,8 @@
     color: white;
     display: flex;
     align-items: center;
+    height: 10vh;
+    box-sizing: border-box;
 }
 
 .cl-slide-in-header-title, .cl-slide-in-header-icon{
@@ -34,4 +36,21 @@
 .cl-slide-in-body{
     width: 100%;
     max-width: inherit;
+    height: 78vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.cl-slide-in-footer {
+    padding: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #e5e5e559;
+    /* position: absolute; */
+    width: 100%;
+    max-width: inherit;
+    box-sizing: border-box;
+    bottom: 0px;
+    height: 12vh;
+    box-sizing: border-box;
 }
