@@ -1,0 +1,35 @@
+.cl-anchor-button {
+    border: none;
+    background: inherit;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #8ac9b1;
+    font-weight: 550;
+}
+
+.cl-anchor-button:hover {
+    color: #4ae2a8;
+}
+
+.cl-anchor-button:disabled {
+    color: rgba(128, 128, 128, 0.486);
+    cursor: default;
+}
+
+.cl-anchor-button:focus {
+    outline: none;
+    color: #4ae2a8;
+}
+
+.cl-anchor-button-icon-container {
+    padding: 0 3px 0 0;
+}
+
+.cl-anchor-button-label-container {
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid;
+}

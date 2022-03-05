@@ -1,0 +1,60 @@
+.cl-segment-saver-container {
+    padding: 15px;
+    min-width: min-content;
+}
+.cl-heading {
+    margin: 5px;
+    padding: 10px 0px;
+}
+
+.cl-selected-schemas {
+    border: 2px solid rgba(30, 143, 255, 0.555);
+    border-radius: 2px;
+    min-width: max-content;
+}
+.cl-traits-info {
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+    padding: 10px 0px;
+}
+.cl-trait-icon-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.cl-select-del-marker-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cl-delete-btn {
+    width: 10%;
+    padding: 6px 8px;
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff;
+    border-color: #f0f8ff;
+
+}
+
+.cl-delete-btn:hover {
+    background-color: #e7f2fc;
+    border-color: #e7f2fc;
+}
+
+.cl-circle-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: hsl(0, 0%, 20%);
+    margin: 5px 7px;
+    font-size: 8px;   
+}
+
+.cl-add-new-schema-container {
+    padding: 20px;
+}

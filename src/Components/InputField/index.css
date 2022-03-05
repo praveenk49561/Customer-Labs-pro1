@@ -1,0 +1,22 @@
+.cl-input-field-container {
+    margin: 5px;
+    min-width: max-content;
+}
+.cl-input-field {
+    padding: 6px;
+    font-size: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.cl-input-field:focus {
+    outline-style: solid;
+    outline-color: dodgerblue;
+    outline-width: 1px;
+    outline-offset: 0px;
+}

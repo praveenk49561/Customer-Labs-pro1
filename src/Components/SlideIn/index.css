@@ -1,0 +1,37 @@
+.cl-slide-in {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 100%;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.57);
+}
+.cl-silde-in-closed {
+    width: 0px;
+}
+.cl-slide-in-header {
+    padding: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #6cbdc1;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cl-slide-in-header-title, .cl-slide-in-header-icon{
+    padding: 0 10px;
+}
+
+.cl-slide-in-body{
+    width: 100%;
+    max-width: inherit;
+}

@@ -1,0 +1,34 @@
+.cl-button {
+    padding: 6px;
+    font-size: 17px;
+    color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    margin: 5px;
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    cursor: pointer;
+}
+
+.cl-button:focus {
+    outline-style: solid;
+    outline-color: dodgerblue;
+    outline-width: 1px;
+    outline-offset: 0px;
+}
+
+.cl-button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.cl-button:disabled {
+    background-color: #e6e8eb;
+    border-color: #e6e8eb;
+    cursor: default;
+}
+
+.cl-button:disabled:hover {
+    background-color: #e6e8eb;
+    border-color: #e6e8eb;
+    cursor: default;
+}

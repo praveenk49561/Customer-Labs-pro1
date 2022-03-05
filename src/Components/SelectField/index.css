@@ -1,0 +1,22 @@
+.cl-select-field-container {
+    margin: 5px;
+    min-width: max-content;
+    width: 100%;
+}
+.cl-select-field {
+    padding: 6px;
+    font-size: 17px;
+    width: 100%;
+    color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.cl-select-field:focus {
+    outline-style: solid;
+    outline-color: dodgerblue;
+    outline-width: 1px;
+    outline-offset: 0px;
+}
