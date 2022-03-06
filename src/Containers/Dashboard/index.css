@@ -4,14 +4,12 @@
     background-color: #6cc1a6;
     color: white;
     font-weight: 600;
+    border: none;
 }
 
-.cl-slide-in-footer-save-btn:hover {
+.cl-slide-in-footer-save-btn:hover:not([disabled]) {
     background-color: white;
     color: #6cc1a6;
-}
-.cl-slide-in-footer-save-btn:disabled:hover {
-    color: white;
 }
 
 .cl-slide-in-footer-cancel-btn {
@@ -20,4 +18,10 @@
     background-color: white;
     color: #ff4a4a;
     font-weight: 600;
+    border: none;
+}
+
+.cl-slide-in-footer-cancel-btn:hover:not([disabled]) {
+    background-color: #ff4a4a;
+    color: white;
 }

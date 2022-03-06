@@ -13,23 +13,18 @@
 
 .cl-button:focus {
     outline-style: solid;
-    outline-color: dodgerblue;
+    outline-color: #6cc1a6;
     outline-width: 1px;
     outline-offset: 0px;
 }
 
-.cl-button:hover {
+.cl-button:hover:not([disabled]) {
     background-color: hsl(0, 0%, 80%);
 }
 
 .cl-button:disabled {
-    background-color: #e6e8eb;
-    border-color: #e6e8eb;
-    cursor: default;
-}
-
-.cl-button:disabled:hover {
-    background-color: #e6e8eb;
-    border-color: #e6e8eb;
-    cursor: default;
+    /* background-color: #e6e8eb;
+    border-color: #e6e8eb; */
+    cursor: not-allowed;
+    opacity: 0.4;
 }

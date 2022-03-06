@@ -11,19 +11,20 @@
     font-weight: 550;
 }
 
-.cl-anchor-button:hover {
-    color: #4ae2a8;
+.cl-anchor-button:focus {
+    outline: none;
+    color: #4cc7a0;
+}
+
+.cl-anchor-button:hover:not([disabled]) {
+    color: #4cc7a0;
 }
 
 .cl-anchor-button:disabled {
-    color: rgba(128, 128, 128, 0.486);
-    cursor: default;
+    opacity: 0.4;
+    cursor: not-allowed
 }
 
-.cl-anchor-button:focus {
-    outline: none;
-    color: #4ae2a8;
-}
 
 .cl-anchor-button-icon-container {
     padding: 0 3px 0 0;
